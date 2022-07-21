@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E34DAFB2889E0CE00E85A06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E34DAFA2889E0CE00E85A06 /* LaunchScreen.storyboard */; };
 		1E365E5A287F4E3300733078 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E365E59287F4E3300733078 /* ToDoListApp.swift */; };
 		1E365E5E287F4E3700733078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E365E5D287F4E3700733078 /* Assets.xcassets */; };
 		1E365E61287F4E3700733078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E365E60287F4E3700733078 /* Preview Assets.xcassets */; };
@@ -19,7 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E365E56287F4E3300733078 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E34DAFA2889E0CE00E85A06 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E365E56287F4E3300733078 /* Doing Stuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doing Stuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E365E59287F4E3300733078 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		1E365E5D287F4E3700733078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E365E60287F4E3700733078 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 		1E365E57287F4E3300733078 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E365E56287F4E3300733078 /* ToDoList.app */,
+				1E365E56287F4E3300733078 /* Doing Stuff.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +90,7 @@
 				1E685F18287F52CE00550022 /* ListRowView.swift */,
 				1E685F1A287F58AA00550022 /* AddView.swift */,
 				1E787BDE2882077200F149BC /* NoItemsView.swift */,
+				1E34DAFA2889E0CE00E85A06 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,7 +128,7 @@
 			);
 			name = ToDoList;
 			productName = ToDoList;
-			productReference = 1E365E56287F4E3300733078 /* ToDoList.app */;
+			productReference = 1E365E56287F4E3300733078 /* Doing Stuff.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E34DAFB2889E0CE00E85A06 /* LaunchScreen.storyboard in Resources */,
 				1E365E61287F4E3700733078 /* Preview Assets.xcassets in Resources */,
 				1E365E5E287F4E3700733078 /* Assets.xcassets in Resources */,
 			);
@@ -318,7 +322,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -327,7 +331,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DigiLabs.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doing Stuff";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,7 +351,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,7 +360,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DigiLabs.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doing Stuff";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
